@@ -51,7 +51,7 @@ Code = {' ': ' ',
         'Z': '--..',
         '_': '..--.-'}
 ledPin=11
-GPIO.setmode(GPIO.BOARD)
+GPIO.setmode(GPIO.BCM)
 GPIO.setup(ledPin,GPIO.OUT)
 
 def dot():
